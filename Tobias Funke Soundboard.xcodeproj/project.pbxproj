@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD11235414E868FD00970D38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD11235314E868FD00970D38 /* UIKit.framework */; };
+		CD11235614E868FD00970D38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD11235514E868FD00970D38 /* Foundation.framework */; };
+		CD11235814E868FD00970D38 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD11235714E868FD00970D38 /* CoreGraphics.framework */; };
+		CD11235E14E868FD00970D38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD11235C14E868FD00970D38 /* InfoPlist.strings */; };
+		CD11236014E868FE00970D38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD11235F14E868FE00970D38 /* main.m */; };
+		CD11236414E868FE00970D38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD11236314E868FE00970D38 /* AppDelegate.m */; };
+		CD11236714E868FE00970D38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD11236614E868FE00970D38 /* ViewController.m */; };
+		CD11236A14E868FE00970D38 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD11236814E868FE00970D38 /* ViewController.xib */; };
+		CD11237214E868FE00970D38 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD11237114E868FE00970D38 /* SenTestingKit.framework */; };
+		CD11237314E868FE00970D38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD11235314E868FD00970D38 /* UIKit.framework */; };
+		CD11237414E868FE00970D38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD11235514E868FD00970D38 /* Foundation.framework */; };
+		CD11237C14E868FE00970D38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD11237A14E868FE00970D38 /* InfoPlist.strings */; };
+		CD11237F14E868FE00970D38 /* iPad_Apps_SoundboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD11237E14E868FE00970D38 /* iPad_Apps_SoundboardTests.m */; };
+		CD3F4C1914EC8E0F00EB8E4D /* Tobias.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD3F4C1814EC8E0F00EB8E4D /* Tobias.jpg */; };
+		CD3F4C2714EC9A3400EB8E4D /* Blue Myself.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD3F4C1B14EC9A3400EB8E4D /* Blue Myself.mp3 */; };
+		CD3F4C2814EC9A3400EB8E4D /* Fire Sale.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD3F4C1C14EC9A3400EB8E4D /* Fire Sale.mp3 */; };
+		CD3F4C2914EC9A3400EB8E4D /* Hey Fizellas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD3F4C1D14EC9A3400EB8E4D /* Hey Fizellas.mp3 */; };
+		CD3F4C2A14EC9A3400EB8E4D /* Hide My Thunder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD3F4C1E14EC9A3400EB8E4D /* Hide My Thunder.mp3 */; };
+		CD3F4C2B14EC9A3400EB8E4D /* Hide Of An Elephant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD3F4C1F14EC9A3400EB8E4D /* Hide Of An Elephant.mp3 */; };
+		CD3F4C2C14EC9A3400EB8E4D /* Huzzah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD3F4C2014EC9A3400EB8E4D /* Huzzah.mp3 */; };
+		CD3F4C2D14EC9A3400EB8E4D /* New York, New York.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD3F4C2114EC9A3400EB8E4D /* New York, New York.mp3 */; };
+		CD3F4C2E14EC9A3400EB8E4D /* Selfish Cuntry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD3F4C2214EC9A3400EB8E4D /* Selfish Cuntry.mp3 */; };
+		CD3F4C2F14EC9A3400EB8E4D /* Somewhere Over The Rainbow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD3F4C2314EC9A3400EB8E4D /* Somewhere Over The Rainbow.mp3 */; };
+		CD3F4C3014EC9A3400EB8E4D /* Take A Chubby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD3F4C2414EC9A3400EB8E4D /* Take A Chubby.mp3 */; };
+		CD3F4C3114EC9A3400EB8E4D /* Teamocil.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD3F4C2514EC9A3400EB8E4D /* Teamocil.mp3 */; };
+		CD3F4C3214EC9A3400EB8E4D /* There Are Dozens Of Us.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD3F4C2614EC9A3400EB8E4D /* There Are Dozens Of Us.mp3 */; };
+		CD3F4C3414EC9B8200EB8E4D /* Tobias2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD3F4C3314EC9B8200EB8E4D /* Tobias2.jpg */; };
+		CDBFBD1914ECCD6E00E17999 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBFBD1814ECCD6E00E17999 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD11237514E868FE00970D38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD11234614E868FD00970D38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD11234E14E868FD00970D38;
+			remoteInfo = "iPad Apps Soundboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD11234F14E868FD00970D38 /* Tobias Funke Soundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tobias Funke Soundboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD11235314E868FD00970D38 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD11235514E868FD00970D38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD11235714E868FD00970D38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD11235B14E868FD00970D38 /* Tobias Funke Soundboard-Info.plist */ = {isa = PBXFileReference; path = "Tobias Funke Soundboard-Info.plist"; sourceTree = "<group>"; };
+		CD11235D14E868FD00970D38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD11235F14E868FE00970D38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD11236114E868FE00970D38 /* Tobias Funke Soundboard-Prefix.pch */ = {isa = PBXFileReference; path = "Tobias Funke Soundboard-Prefix.pch"; sourceTree = "<group>"; };
+		CD11236214E868FE00970D38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD11236314E868FE00970D38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD11236514E868FE00970D38 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD11236614E868FE00970D38 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD11236914E868FE00970D38 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		CD11237014E868FE00970D38 /* Tobias Funke SoundboardTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tobias Funke SoundboardTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD11237114E868FE00970D38 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CD11237914E868FE00970D38 /* Tobias Funke SoundboardTests-Info.plist */ = {isa = PBXFileReference; path = "Tobias Funke SoundboardTests-Info.plist"; sourceTree = "<group>"; };
+		CD11237B14E868FE00970D38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD11237D14E868FE00970D38 /* iPad_Apps_SoundboardTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPad_Apps_SoundboardTests.h; sourceTree = "<group>"; };
+		CD11237E14E868FE00970D38 /* iPad_Apps_SoundboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPad_Apps_SoundboardTests.m; sourceTree = "<group>"; };
+		CD3F4C1814EC8E0F00EB8E4D /* Tobias.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tobias.jpg; sourceTree = "<group>"; };
+		CD3F4C1B14EC9A3400EB8E4D /* Blue Myself.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Blue Myself.mp3"; path = "iPad Apps Soundboard/Blue Myself.mp3"; sourceTree = "<group>"; };
+		CD3F4C1C14EC9A3400EB8E4D /* Fire Sale.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Fire Sale.mp3"; path = "iPad Apps Soundboard/Fire Sale.mp3"; sourceTree = "<group>"; };
+		CD3F4C1D14EC9A3400EB8E4D /* Hey Fizellas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Hey Fizellas.mp3"; path = "iPad Apps Soundboard/Hey Fizellas.mp3"; sourceTree = "<group>"; };
+		CD3F4C1E14EC9A3400EB8E4D /* Hide My Thunder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Hide My Thunder.mp3"; path = "iPad Apps Soundboard/Hide My Thunder.mp3"; sourceTree = "<group>"; };
+		CD3F4C1F14EC9A3400EB8E4D /* Hide Of An Elephant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Hide Of An Elephant.mp3"; path = "iPad Apps Soundboard/Hide Of An Elephant.mp3"; sourceTree = "<group>"; };
+		CD3F4C2014EC9A3400EB8E4D /* Huzzah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Huzzah.mp3; path = "iPad Apps Soundboard/Huzzah.mp3"; sourceTree = "<group>"; };
+		CD3F4C2114EC9A3400EB8E4D /* New York, New York.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "New York, New York.mp3"; path = "iPad Apps Soundboard/New York, New York.mp3"; sourceTree = "<group>"; };
+		CD3F4C2214EC9A3400EB8E4D /* Selfish Cuntry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Selfish Cuntry.mp3"; path = "iPad Apps Soundboard/Selfish Cuntry.mp3"; sourceTree = "<group>"; };
+		CD3F4C2314EC9A3400EB8E4D /* Somewhere Over The Rainbow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Somewhere Over The Rainbow.mp3"; path = "iPad Apps Soundboard/Somewhere Over The Rainbow.mp3"; sourceTree = "<group>"; };
+		CD3F4C2414EC9A3400EB8E4D /* Take A Chubby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Take A Chubby.mp3"; path = "iPad Apps Soundboard/Take A Chubby.mp3"; sourceTree = "<group>"; };
+		CD3F4C2514EC9A3400EB8E4D /* Teamocil.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Teamocil.mp3; path = "iPad Apps Soundboard/Teamocil.mp3"; sourceTree = "<group>"; };
+		CD3F4C2614EC9A3400EB8E4D /* There Are Dozens Of Us.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "There Are Dozens Of Us.mp3"; path = "iPad Apps Soundboard/There Are Dozens Of Us.mp3"; sourceTree = "<group>"; };
+		CD3F4C3314EC9B8200EB8E4D /* Tobias2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tobias2.jpg; sourceTree = "<group>"; };
+		CDBFBD1814ECCD6E00E17999 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD11234C14E868FD00970D38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDBFBD1914ECCD6E00E17999 /* AVFoundation.framework in Frameworks */,
+				CD11235414E868FD00970D38 /* UIKit.framework in Frameworks */,
+				CD11235614E868FD00970D38 /* Foundation.framework in Frameworks */,
+				CD11235814E868FD00970D38 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD11236C14E868FE00970D38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD11237214E868FE00970D38 /* SenTestingKit.framework in Frameworks */,
+				CD11237314E868FE00970D38 /* UIKit.framework in Frameworks */,
+				CD11237414E868FE00970D38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD11234414E868FD00970D38 = {
+			isa = PBXGroup;
+			children = (
+				CD3F4C1B14EC9A3400EB8E4D /* Blue Myself.mp3 */,
+				CD3F4C1C14EC9A3400EB8E4D /* Fire Sale.mp3 */,
+				CD3F4C1D14EC9A3400EB8E4D /* Hey Fizellas.mp3 */,
+				CD3F4C1E14EC9A3400EB8E4D /* Hide My Thunder.mp3 */,
+				CD3F4C1F14EC9A3400EB8E4D /* Hide Of An Elephant.mp3 */,
+				CD3F4C2014EC9A3400EB8E4D /* Huzzah.mp3 */,
+				CD3F4C2114EC9A3400EB8E4D /* New York, New York.mp3 */,
+				CD3F4C2214EC9A3400EB8E4D /* Selfish Cuntry.mp3 */,
+				CD3F4C2314EC9A3400EB8E4D /* Somewhere Over The Rainbow.mp3 */,
+				CD3F4C2414EC9A3400EB8E4D /* Take A Chubby.mp3 */,
+				CD3F4C2514EC9A3400EB8E4D /* Teamocil.mp3 */,
+				CD3F4C2614EC9A3400EB8E4D /* There Are Dozens Of Us.mp3 */,
+				CD11235914E868FD00970D38 /* Tobias Funke Soundboard */,
+				CD11237714E868FE00970D38 /* Tobias Funke Soundboard */,
+				CD11235214E868FD00970D38 /* Frameworks */,
+				CD11235014E868FD00970D38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD11235014E868FD00970D38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD11234F14E868FD00970D38 /* Tobias Funke Soundboard.app */,
+				CD11237014E868FE00970D38 /* Tobias Funke SoundboardTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD11235214E868FD00970D38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDBFBD1814ECCD6E00E17999 /* AVFoundation.framework */,
+				CD11235314E868FD00970D38 /* UIKit.framework */,
+				CD11235514E868FD00970D38 /* Foundation.framework */,
+				CD11235714E868FD00970D38 /* CoreGraphics.framework */,
+				CD11237114E868FE00970D38 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD11235914E868FD00970D38 /* Tobias Funke Soundboard */ = {
+			isa = PBXGroup;
+			children = (
+				CD11236214E868FE00970D38 /* AppDelegate.h */,
+				CD11236314E868FE00970D38 /* AppDelegate.m */,
+				CD11236514E868FE00970D38 /* ViewController.h */,
+				CD11236614E868FE00970D38 /* ViewController.m */,
+				CD11236814E868FE00970D38 /* ViewController.xib */,
+				CD3F4C1814EC8E0F00EB8E4D /* Tobias.jpg */,
+				CD3F4C3314EC9B8200EB8E4D /* Tobias2.jpg */,
+				CD11235A14E868FD00970D38 /* Supporting Files */,
+			);
+			name = "Tobias Funke Soundboard";
+			path = "iPad Apps Soundboard";
+			sourceTree = "<group>";
+		};
+		CD11235A14E868FD00970D38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD11235B14E868FD00970D38 /* Tobias Funke Soundboard-Info.plist */,
+				CD11235C14E868FD00970D38 /* InfoPlist.strings */,
+				CD11235F14E868FE00970D38 /* main.m */,
+				CD11236114E868FE00970D38 /* Tobias Funke Soundboard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD11237714E868FE00970D38 /* Tobias Funke Soundboard */ = {
+			isa = PBXGroup;
+			children = (
+				CD11237D14E868FE00970D38 /* iPad_Apps_SoundboardTests.h */,
+				CD11237E14E868FE00970D38 /* iPad_Apps_SoundboardTests.m */,
+				CD11237814E868FE00970D38 /* Supporting Files */,
+			);
+			name = "Tobias Funke Soundboard";
+			path = "iPad Apps SoundboardTests";
+			sourceTree = "<group>";
+		};
+		CD11237814E868FE00970D38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD11237914E868FE00970D38 /* Tobias Funke SoundboardTests-Info.plist */,
+				CD11237A14E868FE00970D38 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD11234E14E868FD00970D38 /* Tobias Funke Soundboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD11238214E868FE00970D38 /* Build configuration list for PBXNativeTarget "Tobias Funke Soundboard" */;
+			buildPhases = (
+				CD11234B14E868FD00970D38 /* Sources */,
+				CD11234C14E868FD00970D38 /* Frameworks */,
+				CD11234D14E868FD00970D38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tobias Funke Soundboard";
+			productName = "iPad Apps Soundboard";
+			productReference = CD11234F14E868FD00970D38 /* Tobias Funke Soundboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD11236F14E868FE00970D38 /* Tobias Funke SoundboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD11238514E868FE00970D38 /* Build configuration list for PBXNativeTarget "Tobias Funke SoundboardTests" */;
+			buildPhases = (
+				CD11236B14E868FE00970D38 /* Sources */,
+				CD11236C14E868FE00970D38 /* Frameworks */,
+				CD11236D14E868FE00970D38 /* Resources */,
+				CD11236E14E868FE00970D38 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD11237614E868FE00970D38 /* PBXTargetDependency */,
+			);
+			name = "Tobias Funke SoundboardTests";
+			productName = "iPad Apps SoundboardTests";
+			productReference = CD11237014E868FE00970D38 /* Tobias Funke SoundboardTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD11234614E868FD00970D38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Tufts University";
+			};
+			buildConfigurationList = CD11234914E868FD00970D38 /* Build configuration list for PBXProject "Tobias Funke Soundboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD11234414E868FD00970D38;
+			productRefGroup = CD11235014E868FD00970D38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD11234E14E868FD00970D38 /* Tobias Funke Soundboard */,
+				CD11236F14E868FE00970D38 /* Tobias Funke SoundboardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD11234D14E868FD00970D38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD11235E14E868FD00970D38 /* InfoPlist.strings in Resources */,
+				CD11236A14E868FE00970D38 /* ViewController.xib in Resources */,
+				CD3F4C1914EC8E0F00EB8E4D /* Tobias.jpg in Resources */,
+				CD3F4C2714EC9A3400EB8E4D /* Blue Myself.mp3 in Resources */,
+				CD3F4C2814EC9A3400EB8E4D /* Fire Sale.mp3 in Resources */,
+				CD3F4C2914EC9A3400EB8E4D /* Hey Fizellas.mp3 in Resources */,
+				CD3F4C2A14EC9A3400EB8E4D /* Hide My Thunder.mp3 in Resources */,
+				CD3F4C2B14EC9A3400EB8E4D /* Hide Of An Elephant.mp3 in Resources */,
+				CD3F4C2C14EC9A3400EB8E4D /* Huzzah.mp3 in Resources */,
+				CD3F4C2D14EC9A3400EB8E4D /* New York, New York.mp3 in Resources */,
+				CD3F4C2E14EC9A3400EB8E4D /* Selfish Cuntry.mp3 in Resources */,
+				CD3F4C2F14EC9A3400EB8E4D /* Somewhere Over The Rainbow.mp3 in Resources */,
+				CD3F4C3014EC9A3400EB8E4D /* Take A Chubby.mp3 in Resources */,
+				CD3F4C3114EC9A3400EB8E4D /* Teamocil.mp3 in Resources */,
+				CD3F4C3214EC9A3400EB8E4D /* There Are Dozens Of Us.mp3 in Resources */,
+				CD3F4C3414EC9B8200EB8E4D /* Tobias2.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD11236D14E868FE00970D38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD11237C14E868FE00970D38 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CD11236E14E868FE00970D38 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD11234B14E868FD00970D38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD11236014E868FE00970D38 /* main.m in Sources */,
+				CD11236414E868FE00970D38 /* AppDelegate.m in Sources */,
+				CD11236714E868FE00970D38 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD11236B14E868FE00970D38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD11237F14E868FE00970D38 /* iPad_Apps_SoundboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD11237614E868FE00970D38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD11234E14E868FD00970D38 /* Tobias Funke Soundboard */;
+			targetProxy = CD11237514E868FE00970D38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD11235C14E868FD00970D38 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD11235D14E868FD00970D38 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD11236814E868FE00970D38 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD11236914E868FE00970D38 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		CD11237A14E868FE00970D38 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD11237B14E868FE00970D38 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD11238014E868FE00970D38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CD11238114E868FE00970D38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD11238314E868FE00970D38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPad Apps Soundboard/Tobias Funke Soundboard-Prefix.pch";
+				INFOPLIST_FILE = "iPad Apps Soundboard/Tobias Funke Soundboard-Info.plist";
+				PRODUCT_NAME = "Tobias Funke Soundboard";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD11238414E868FE00970D38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPad Apps Soundboard/Tobias Funke Soundboard-Prefix.pch";
+				INFOPLIST_FILE = "iPad Apps Soundboard/Tobias Funke Soundboard-Info.plist";
+				PRODUCT_NAME = "Tobias Funke Soundboard";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CD11238614E868FE00970D38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iPad Apps Soundboard.app/iPad Apps Soundboard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPad Apps Soundboard/iPad Apps Soundboard-Prefix.pch";
+				INFOPLIST_FILE = "iPad Apps SoundboardTests/Tobias Funke SoundboardTests-Info.plist";
+				PRODUCT_NAME = "Tobias Funke SoundboardTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CD11238714E868FE00970D38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iPad Apps Soundboard.app/iPad Apps Soundboard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPad Apps Soundboard/iPad Apps Soundboard-Prefix.pch";
+				INFOPLIST_FILE = "iPad Apps SoundboardTests/Tobias Funke SoundboardTests-Info.plist";
+				PRODUCT_NAME = "Tobias Funke SoundboardTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD11234914E868FD00970D38 /* Build configuration list for PBXProject "Tobias Funke Soundboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD11238014E868FE00970D38 /* Debug */,
+				CD11238114E868FE00970D38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD11238214E868FE00970D38 /* Build configuration list for PBXNativeTarget "Tobias Funke Soundboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD11238314E868FE00970D38 /* Debug */,
+				CD11238414E868FE00970D38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD11238514E868FE00970D38 /* Build configuration list for PBXNativeTarget "Tobias Funke SoundboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD11238614E868FE00970D38 /* Debug */,
+				CD11238714E868FE00970D38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD11234614E868FD00970D38 /* Project object */;
+}
