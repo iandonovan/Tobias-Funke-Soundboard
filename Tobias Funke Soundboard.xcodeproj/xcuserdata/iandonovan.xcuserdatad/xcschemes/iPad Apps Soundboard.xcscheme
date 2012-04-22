@@ -14,7 +14,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CD11234E14E868FD00970D38"
-               BuildableName = "iPad Apps Soundboard.app"
+               BuildableName = "Tobias Funke Soundboard.app"
                BlueprintName = "Tobias Funke Soundboard"
                ReferencedContainer = "container:Tobias Funke Soundboard.xcodeproj">
             </BuildableReference>
@@ -32,7 +32,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CD11236F14E868FE00970D38"
-               BuildableName = "iPad Apps SoundboardTests.octest"
+               BuildableName = "Tobias Funke SoundboardTests.octest"
                BlueprintName = "Tobias Funke SoundboardTests"
                ReferencedContainer = "container:Tobias Funke Soundboard.xcodeproj">
             </BuildableReference>
@@ -42,7 +42,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CD11234E14E868FD00970D38"
-            BuildableName = "iPad Apps Soundboard.app"
+            BuildableName = "Tobias Funke Soundboard.app"
             BlueprintName = "Tobias Funke Soundboard"
             ReferencedContainer = "container:Tobias Funke Soundboard.xcodeproj">
          </BuildableReference>
@@ -60,7 +60,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CD11234E14E868FD00970D38"
-            BuildableName = "iPad Apps Soundboard.app"
+            BuildableName = "Tobias Funke Soundboard.app"
             BlueprintName = "Tobias Funke Soundboard"
             ReferencedContainer = "container:Tobias Funke Soundboard.xcodeproj">
          </BuildableReference>
@@ -78,7 +78,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CD11234E14E868FD00970D38"
-            BuildableName = "iPad Apps Soundboard.app"
+            BuildableName = "Tobias Funke Soundboard.app"
             BlueprintName = "Tobias Funke Soundboard"
             ReferencedContainer = "container:Tobias Funke Soundboard.xcodeproj">
          </BuildableReference>

@@ -52,10 +52,10 @@
 		CD11235314E868FD00970D38 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CD11235514E868FD00970D38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CD11235714E868FD00970D38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CD11235B14E868FD00970D38 /* Tobias Funke Soundboard-Info.plist */ = {isa = PBXFileReference; path = "Tobias Funke Soundboard-Info.plist"; sourceTree = "<group>"; };
+		CD11235B14E868FD00970D38 /* Tobias Funke Soundboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Tobias Funke Soundboard-Info.plist"; sourceTree = "<group>"; };
 		CD11235D14E868FD00970D38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CD11235F14E868FE00970D38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CD11236114E868FE00970D38 /* Tobias Funke Soundboard-Prefix.pch */ = {isa = PBXFileReference; path = "Tobias Funke Soundboard-Prefix.pch"; sourceTree = "<group>"; };
+		CD11236114E868FE00970D38 /* Tobias Funke Soundboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tobias Funke Soundboard-Prefix.pch"; sourceTree = "<group>"; };
 		CD11236214E868FE00970D38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD11236314E868FE00970D38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CD11236514E868FE00970D38 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 		CD11236914E868FE00970D38 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		CD11237014E868FE00970D38 /* Tobias Funke SoundboardTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tobias Funke SoundboardTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD11237114E868FE00970D38 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		CD11237914E868FE00970D38 /* Tobias Funke SoundboardTests-Info.plist */ = {isa = PBXFileReference; path = "Tobias Funke SoundboardTests-Info.plist"; sourceTree = "<group>"; };
+		CD11237914E868FE00970D38 /* Tobias Funke SoundboardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Tobias Funke SoundboardTests-Info.plist"; sourceTree = "<group>"; };
 		CD11237B14E868FE00970D38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CD11237D14E868FE00970D38 /* iPad_Apps_SoundboardTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPad_Apps_SoundboardTests.h; sourceTree = "<group>"; };
 		CD11237E14E868FE00970D38 /* iPad_Apps_SoundboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPad_Apps_SoundboardTests.m; sourceTree = "<group>"; };
@@ -124,7 +124,7 @@
 				CD3F4C2414EC9A3400EB8E4D /* Take A Chubby.mp3 */,
 				CD3F4C2514EC9A3400EB8E4D /* Teamocil.mp3 */,
 				CD3F4C2614EC9A3400EB8E4D /* There Are Dozens Of Us.mp3 */,
-				CD11235914E868FD00970D38 /* Tobias Funke Soundboard */,
+				CD11235914E868FD00970D38 /* iPad Apps Soundboard */,
 				CD11237714E868FE00970D38 /* Tobias Funke Soundboard */,
 				CD11235214E868FD00970D38 /* Frameworks */,
 				CD11235014E868FD00970D38 /* Products */,
@@ -152,7 +152,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CD11235914E868FD00970D38 /* Tobias Funke Soundboard */ = {
+		CD11235914E868FD00970D38 /* iPad Apps Soundboard */ = {
 			isa = PBXGroup;
 			children = (
 				CD11236214E868FE00970D38 /* AppDelegate.h */,
@@ -164,7 +164,6 @@
 				CD3F4C3314EC9B8200EB8E4D /* Tobias2.jpg */,
 				CD11235A14E868FD00970D38 /* Supporting Files */,
 			);
-			name = "Tobias Funke Soundboard";
 			path = "iPad Apps Soundboard";
 			sourceTree = "<group>";
 		};
